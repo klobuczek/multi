@@ -16,3 +16,4 @@ mkmf.log
 # rspec failure tracking
 .rspec_status
 .idea
+*.lock
