@@ -1,5 +1,5 @@
 require "multi/version"
-require "multi/multi"
+require 'multi/multi'
 
 module Multi
   class Error < StandardError; end

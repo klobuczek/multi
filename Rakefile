@@ -20,11 +20,11 @@ GEMSPEC = Gem::Specification.load('multi.gemspec')
 if RUBY_PLATFORM =~ /java/
   Rake::JavaExtensionTask.new('multi') do |ext|
     ext.ext_dir = 'ext/java'
-    # ext.lib_dir = 'lib/multi'
+    ext.lib_dir = 'lib/multi'
   end
 else
   Rake::ExtensionTask.new('multi') do |ext|
-    # ext.lib_dir = 'lib/multi'
+    ext.lib_dir = 'lib/multi'
   end
 end
 
